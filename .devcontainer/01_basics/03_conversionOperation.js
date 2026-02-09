@@ -72,5 +72,54 @@ let booleanIsLoggedIn_03 = Boolean(isLoggedIn_03)
 
 let someNumber = 33 
 let stringNumber = String(someNumber)
-console.log(stringNumber);                // 33
-console.log(typeof stringNumber);         // string
+// console.log(stringNumber);                // 33
+// console.log(typeof stringNumber);         // string
+
+
+
+// *********************************** Operations ********************************
+
+
+let value = 3
+let negValue = -value
+//  console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let strX = "hello"
+let strY = " shivani"
+
+let strZ = strX + strY
+// console.log(strZ);            // hello shivani
+
+// console.log("1" + 2);           // 12
+// console.log(1 + "2");           // 12
+// console.log("1" + 2 + 2);        // 122
+
+// console.log(1 + 2 + "2");          // 32
+
+// console.log((3 + 4) * 5 % 3);       // ( messy code saperated by paranthesis)
+
+console.log(true);           // true
+console.log(+true);           // 1   (not preferred)
+console.log(-true)             // -1  (not preferred)
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+// *********** prefix/ postfix
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);  // 101
+
+let apple = 200
+apple++;
+console.log(apple);        // 201
+
